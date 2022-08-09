@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.font{
+  font-size: 30px !important;
+  color: rgba(168, 168, 245, 0.866) !important;
+}
+.font-color{
+  color: rgba(181, 181, 240, 0.7) !important;
+}
+.navbar-toggler-icon{
+  font-size: 30px;
+  color: rgba(181, 181, 240, 0.7) !important;
+}
+.hero-section {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+  url(../images/5e83f98bae1ad80129fcd7e5_wu-jianxiong-UniC8xhlzaE-unsplash.jpg);
+  height: 55vh;
+  background-size: cover;
+  background-position-y: 50%;
+}
+.hero-section h1{
+  font-size: 90px;
+}
+li{
+  font-size: 25px;
+}
+.text-blue{
+  color: rgba(93, 93, 225, 0.867) !important;
+}
+code a{
+  font-size: 20px;
+}
+.hover{
+  font-size: 20px;
+}
+.hover:hover{
+  background-color: rgba(128, 128, 128, 0.529);
+}
+p, .jumbotron, br{
+  font-size: 20px;
+}
+/* mobile responsiveness */
+@media (max-width:576px) {
+  .row{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
